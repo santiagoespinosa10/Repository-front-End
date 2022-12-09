@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* reset */
 * {
@@ -11,8 +11,10 @@
 html,
 body {
     font-family: "montserrat", sans-serif;
-    color: #8f0c0c;
+    color: #4d4d4d;
 }
+
+
 
 h1 {
     font-size: 2.5rem;
@@ -36,6 +38,72 @@ p {
 
 a {
     text-decoration: none;
+    list-style: none;
 }
 
 /* Utility Classes */
+
+.container {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.large {
+    font-size: 1.25rem;
+}
+
+.texto-naranja {
+    color: #e9a075;
+}
+
+.Display-1 {
+    font-size: 4rem;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 40px;
+}
+
+.btn-round {
+    border-radius: 20px;
+}
+
+.btn-dark {
+    background-color: #e9a075;
+    border: 1px solid #e9a075;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #d19069;
+    color: #fff;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+form .form-group{
+    margin-bottom: 16px;
+}
+
+form .form-control{
+    display: block;
+    width: 100%;
+    padding: 7px 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+}
+
