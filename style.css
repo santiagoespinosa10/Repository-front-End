@@ -76,6 +76,7 @@ a {
 }
 
 .btn-dark {
+    padding-top: 10px;
     background-color: #e9a075;
     border: 1px solid #e9a075;
     color: #fff;
@@ -91,11 +92,11 @@ form label {
     margin-bottom: 6px;
 }
 
-form .form-group{
+form .form-group {
     margin-bottom: 16px;
 }
 
-form .form-control{
+form .form-control {
     display: block;
     width: 100%;
     padding: 7px 12px;
@@ -110,8 +111,8 @@ form .form-control{
 /* my header principal */
 
 #headerPrincipal {
-background: radial-gradient(at 10% 10px, #e9a075 , #fff, #fff);
-height: 100;
+    background: radial-gradient(at 10% 10px, #e9a075, #fff, #fff);
+    height: 100;
 }
 
 /* navbar */
@@ -146,4 +147,28 @@ height: 100;
     display: block;
     padding: 20px;
     text-align: center;
+}
+
+#navBar ul li a:hover {
+    color: #d19069;
+}
+
+/* Showcase */
+
+#showcase {
+    padding: 80px;
+}
+
+.showcase-row {
+    display: flex;
+    padding: 150px 0;
+}
+
+.showcase-row-title p.large {
+    padding-bottom: 15px;
+}
+
+.showcase-row-img {
+    height: 1cm;
+    width: 1cm;
 }
