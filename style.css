@@ -168,7 +168,23 @@ form .form-control {
     padding-bottom: 15px;
 }
 
-.showcase-row-img {
-    height: 1cm;
-    width: 1cm;
+.imagenpersonal {
+    height: 350px;
+    width: 350px;
+}
+
+/* Portfolio*/
+
+#portfolio {
+ padding: 80px 0;    
+ text-align: center;
+}
+
+.imagenportfolio {
+    height: 200px;
+    width: 200px;
+}
+
+.portfolio p {
+    width: 500px;
 }
